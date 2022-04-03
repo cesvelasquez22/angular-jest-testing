@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FatherSonComponent should match with snapshot 1`] = `
+<div
+  id="root1"
+>
+  <h5>
+    Hijo
+  </h5>
+  <code>
+    
+  </code>
+  <br />
+  <br />
+  
+  
+</div>
+`;
+
+exports[`FatherSonComponent should match with snapshot if client 1`] = `
+<div
+  id="root4"
+>
+  <h5>
+    Hijo
+  </h5>
+  <code>
+    {
+  "id": 1,
+  "name": "Cesar"
+}
+  </code>
+  <br />
+  <br />
+  <button
+    class="btn btn-outline-primary"
+    data-test="btn-id"
+  >
+     Cambiar ID
+
+  </button>
+  
+  <button
+    class="btn btn-outline-danger"
+    data-test="btn-delete"
+  >
+     Borrar cliente
+
+  </button>
+  
+</div>
+`;
